@@ -1,23 +1,31 @@
 import { test, expect } from '@playwright/test';
 import { CheckBoxPage } from '../../pages/CheckBoxPage';
 import { logStep } from '../../utils/logger';
+import { handleError } from '../../utils/errorHandler';
 
-test('Check Box selection', async ({ page }) => {
-  const checkBoxPage = new CheckBoxPage(page);
+test.describe('Check Box Tests', () => {
 
-  logStep('Navigating to Check Box page');
-  await checkBoxPage.navigate();
+  test('Positive: Check Box selection', async ({ page }) => {
+    try {
+      const checkBoxPage = new CheckBoxPage(page);
 
-  logStep('Expanding all checkboxes');
-  await checkBoxPage.expandAll();
-  await page.waitForTimeout(1000); // Pause for demo clarity
+      logStep('Navigating to Check Box page');
+      await checkBoxPage.navigate();
 
-  logStep('Selecting Desktop and Notes checkboxes');
-  await checkBoxPage.selectCheckbox('Desktop');
-  await checkBoxPage.selectCheckbox('Notes');
-  await page.waitForTimeout(1000);
+      logStep('Expanding all checkboxes');
+      await checkBoxPage.expandAll();
+      await page.waitForTimeout(1000); // Pause for demo clarity
 
-  logStep('Verifying selected items');
-  const result = await checkBoxPage.getSelectedItems();
-  expect(result).toContain('commands');
+      logStep('Selecting Desktop and Notes checkboxes');
+      await checkBoxPage.selectCheckbox('Desktop');
+      await checkBoxPage.selectCheckbox('Notes');
+      await page.waitForTimeout(1000);
+
+      logStep('Verifying selected items');
+      const result = await checkBoxPage.getSelectedItems();
+      expect(result).toContain('commands');
+    }catch (err) {
+  await handleError('Check Box Test', err, page);
+}
+  });
 });

@@ -29,7 +29,26 @@ export class WebTablesPage {
     await clickElement(this.page, `#delete-record-${rowIndex}`);
   }
 
-  async getTableText(): Promise<string> {
-    return await getText(this.page, '.rt-table');
+async getRowData(rowIndex: number): Promise<string[]> {
+  const rowLocator = this.page.locator(`.rt-tr-group:nth-child(${rowIndex}) .rt-td`);
+  const cellCount = await rowLocator.count();
+  const rowData: string[] = [];
+  for (let i = 0; i < cellCount; i++) {
+    const text = (await rowLocator.nth(i).innerText()).trim();
+    if (text) rowData.push(text); // Ignore empty cells
+  }
+  return rowData;
+}
+
+  async findRowIndexByName(name: string): Promise<number | null> {
+    const rows = this.page.locator('.rt-tr-group');
+    const rowCount = await rows.count();
+    for (let i = 1; i <= rowCount; i++) {
+      const rowText = await rows.nth(i - 1).innerText();
+      if (rowText.includes(name)) {
+        return i;
+      }
+    }
+    return null;
   }
 }

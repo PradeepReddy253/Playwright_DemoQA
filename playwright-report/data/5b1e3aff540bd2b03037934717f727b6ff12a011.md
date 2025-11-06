@@ -1,0 +1,137 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e3]:
+    - img "adplus-dvertising" [ref=e6] [cursor=pointer]
+    - iframe [ref=e9]:
+      - generic [ref=f1e2]:
+        - link "Advertisement" [ref=f1e4] [cursor=pointer]:
+          - /url: https://ad.doubleclick.net/pcs/click?xai=AKAOjssGKMaB0VHxvADp7lX1nOA0jyL-5zcs3mFStFWo9eT_Z0kPSCDwBo2IheSaIPSCrab1AVbQUbht7Fgva8Lki5DM_gw_ALOIXlc24YEyXDsozzeLD1Fg3to8-HZiI0awOgU5SKkNFVswFHv9aRSBnIpWkTw91KCY0GShrkBksF1pzW6iflud4AVTGxRStvN9OyyUoEFt6h2cfwIWPT0894ZqN12BzToY04otDV_zcSytT__JYhZtTOX8gae7cPB4kO-BtQNuhyoa-FnUHpR9py-7wYBUX1cGhVFBIMG5sbjzYWQU5VL-Bfde-rNb2KuVJoEelVHcCRI6VSQbTrRHRbF186UJoYdOCWQDgsN0ncc5MQxb6p4ibPG9we5eDditqwekoWw_cRwsXzc3NECi2iIz2N9-y7TcKTgEOVIngXjw05X0FSS2lHmu52tj1qNufDfZLEOSthQDK3SRzhGKwGXgiBrUWfMj2w23671PyNIlz2qUWBBM-8LZxRomskt8gBSrgt5o7sdzKdmx3BJGHfNQk2Wc00d26yRj7quzl5JqgizhzoyxOMzY9csVzHQt-PQdQZ_pkQDPgPStY8594qeqCvW0_D68nAVhHvPPJjl3cVdHyFh7xewPefEt6G3OHgN1LP_6YQswL5TU7H6QYeW2-VT5OP8Nhkr6Ur_AuiUns4T3BAYlOMTr9eW7ZNh8t3lg8uiktV2P8xLh-6sExKLTlaNQ_rYn1H_bRY4olBAdjvYUMBBqloanvUvvvkINvwoPpLsZt1bP5_u3PiFO_bgN6TrRa_pVFDB2sAGG2OBSk8CRA_iZhXHwlSUoTs6Ybd-YdRIeNsA7do4GA3xF__Uv6bypu5arvDS23X4WI21nRB6vgB1szO51zKaTQqpEbreirYchP6yKJgD6g062xoWLy5TkcQMbXWCiAHgDQo7thBzwAgPvx1xAFdsTsRtItk7K0ssZmoRujtDRjzLZ73FKhmZu5PeGIzqr2fjYgFdtEt6NVWT1AqjjXCp5QNoNZ5l6cRFgtJtQNivbEzCRvuYLWuBfFw-TLTGx2n_CmjBtMWAakYCMftcyE2QdSdQvIG9om_SOXXvluV8HEGhrkevN7O9QdJRXBTUz2M5UC2fIY6bYC4CYhXGt-tsSz5JVN39qEd5MXDDqwyKRlul33RKtZtFR-zVtHUDhUFL-F7L7ZYsM39Dom40eILBjlV-CrqeglglWqQCRwljpf2TrXe6RtHp2Er9gzrKEaqwQvrMxH5MR2qtDevZ4uekdezdGz0DAsOiNWrjg2symiNzfQkbhtxL4a2gQtUgkUA9RVR2cKZQVT6Oq9P0o5aepzGDyj48IxFDJ3Xy_EVKAomq6VTJxK_cQP_L-fk1gQWb2dKGKupc0XP9yQ4xY5OoA4qHkQPqI1DYc5MTKUP1jlKz8bUCczOH7tonU84wrcFH_eIDEXi9VkOdg5TG2LeEjcvIQPSAJlixSqpGzkIF0yhxaZLi9HnuvR7Vcd4Vo711CeIh2u49wB-EV_U5kYMnJM2AKrVo2ltiofyO_F5_eIs8t9BQiKmSByZTvvboBXcCI_K_BEkCAxw&sai=AMfl-YTI6wE0GsgYVMwfyZrQHGMCnV3tQyqM2-66RJotkymzznwEncUVDwGwUFGsjsksWXJSuvmgM9gnXjuNuMxT_blpAZdH9BbCoOJfE_7gXINHM_TKLejKfsnUW73_-Puc7-KBUDgMXm8pr6as6oB8Nu1GSx-UnEwMSufdA13slz0Dso-DsKNW8kVF6hdBBmjBMCjphzhAkdhO-uBYZDCu2N82foHmUeKMqmwZEsMhEo5e5b2q4cjR41Bi5eaRQD__PV5fhXaMnJwuwj9PHgnt0GD5bQjCJNWH5lQYG2drofbqyAfpOduX0gujQn7QJlu-BA3mnCtVjtqfvCYcF8rrULep615Z-OmTZdnlluoxU258BoGSmxn8fm2fJrRcLFWk8CXTO8LvaXJrTouunE8ykns16Gi3T8p-ig5ecpISDmi-UkwsIn7MQhHtiz_fw1HGzi6s6xHeeFs7YCDl9MkEKrxoKUzp7nlRwgexfzjV1u62dYPXP7jNjWT303rJ8dw-5_bu3oW_YVX5npKXkbsVbYQSKoPQUy6T2goaDAAmF4HbKwGqKdw2VXZGhzwUAX39mzf-PXEBH0FoxEmsAJcnXI5zJESoFKF0NxICuH2zxi5aUx5fYuN9m489vkPNVIdGGswbvMoi6Fmy3Oa9v90shPg6&sig=Cg0ArKJSzOLed8lJmm-G&fbs_aeid=%5Bgw_fbsaeid%5D&crd=aHR0cHM6Ly9pdGNob3RlbHMuY29t&urlfix=1&adurl=https://www.itchotels.com/in/en/clubitc/membership-benefits/enrol%3Futm_source%3Dprogrammatic%26utm_medium%3Ddv360%26utm_content%3Ddisplay%26utm_campaign%3DPFX_Google-HQ_DTL-CHN-NA-QO-DisplayDV360-NA-Tactical-Membership-NA-NA-Feeder-C0%26utm_adgroup%3DDisplayDV360-NA-INT_Feeder-C0-CITCBranding_DisplayDV360-NA-INT_Feeder-0-Customintent4_5starhotels_FeelRewarded%26dclid%3D%25edclid!%26gad_source%3D7
+          - img "Advertisement" [ref=f1e5]
+        - generic [ref=f1e6]:
+          - generic:
+            - img [ref=f1e10] [cursor=pointer]
+            - button [ref=f1e12] [cursor=pointer]:
+              - img [ref=f1e13]
+  - generic [ref=e10]:
+    - banner [ref=e11]:
+      - link [ref=e12] [cursor=pointer]:
+        - /url: https://demoqa.com
+        - img [ref=e13]
+    - generic [ref=e16]:
+      - generic [ref=e19]:
+        - generic [ref=e20]:
+          - generic [ref=e22] [cursor=pointer]:
+            - generic [ref=e23]:
+              - img [ref=e25]
+              - text: Elements
+            - img [ref=e30]
+          - list [ref=e35]:
+            - listitem [ref=e36] [cursor=pointer]:
+              - img [ref=e37]
+              - generic [ref=e39]: Text Box
+            - listitem [ref=e40] [cursor=pointer]:
+              - img [ref=e41]
+              - generic [ref=e43]: Check Box
+            - listitem [ref=e44] [cursor=pointer]:
+              - img [ref=e45]
+              - generic [ref=e47]: Radio Button
+            - listitem [ref=e48] [cursor=pointer]:
+              - img [ref=e49]
+              - generic [ref=e51]: Web Tables
+            - listitem [ref=e52] [cursor=pointer]:
+              - img [ref=e53]
+              - generic [ref=e55]: Buttons
+            - listitem [ref=e56] [cursor=pointer]:
+              - img [ref=e57]
+              - generic [ref=e59]: Links
+            - listitem [ref=e60] [cursor=pointer]:
+              - img [ref=e61]
+              - generic [ref=e63]: Broken Links - Images
+            - listitem [ref=e64] [cursor=pointer]:
+              - img [ref=e65]
+              - generic [ref=e67]: Upload and Download
+            - listitem [ref=e68] [cursor=pointer]:
+              - img [ref=e69]
+              - generic [ref=e71]: Dynamic Properties
+        - generic [ref=e74] [cursor=pointer]:
+          - generic [ref=e75]:
+            - img [ref=e77]
+            - text: Forms
+          - img [ref=e83]
+        - generic [ref=e89] [cursor=pointer]:
+          - generic [ref=e90]:
+            - img [ref=e92]
+            - text: Alerts, Frame & Windows
+          - img [ref=e97]
+        - generic [ref=e103] [cursor=pointer]:
+          - generic [ref=e104]:
+            - img [ref=e106]
+            - text: Widgets
+          - img [ref=e111]
+        - generic [ref=e117] [cursor=pointer]:
+          - generic [ref=e118]:
+            - img [ref=e120]
+            - text: Interactions
+          - img [ref=e125]
+        - generic [ref=e131] [cursor=pointer]:
+          - generic [ref=e132]:
+            - img [ref=e134]
+            - text: Book Store Application
+          - img [ref=e139]
+      - generic [ref=e143]:
+        - iframe [ref=e146]:
+          
+        - heading "Text Box" [level=1] [ref=e147]
+        - generic [ref=e149]:
+          - generic [ref=e150]:
+            - generic [ref=e152]: Full Name
+            - textbox "Full Name" [ref=e154]: Pradeep Reddy
+          - generic [ref=e155]:
+            - generic [ref=e157]: Email
+            - textbox "name@example.com" [ref=e159]: pradeep@example.com
+          - generic [ref=e160]:
+            - generic [ref=e162]: Current Address
+            - textbox "Current Address" [ref=e164]: Chennai
+          - generic [ref=e165]:
+            - generic [ref=e167]: Permanent Address
+            - textbox [ref=e169]: "@@@###$$$"
+          - button "Submit" [active] [ref=e172] [cursor=pointer]
+          - generic [ref=e174]:
+            - paragraph [ref=e175]: Name:Pradeep Reddy
+            - paragraph [ref=e176]: Email:pradeep@example.com
+            - paragraph [ref=e177]: Current Address :Chennai
+            - paragraph [ref=e178]: Permananet Address :@@@###$$$
+        - iframe [ref=e182]:
+          
+      - generic [ref=e187]:
+        - img "Build PlayWright tests with AI" [ref=e189] [cursor=pointer]
+        - iframe [ref=e192]:
+          - generic [ref=f4e2]:
+            - link "Advertisement" [ref=f4e4] [cursor=pointer]:
+              - /url: https://ad.doubleclick.net/pcs/click?xai=AKAOjssSSmypD9P334fI5Fki8Z85bjt2W0_Ez1kiCeiu7CPyOtWhH4Drx790qr1ZNwXNn546vFodmNk-hAlRyQX9Y8rCIVEaiRcx40wNRViugmXzgFa5DxWuzzEJrt-jv4D4f0ZDKWk2RSbWq0wHwOcdazwq_pBFQ_36b6gvHD9EaPnjDUOdx6tD2hTKDg8V8oMm57sJtnI-vp3ZSzsMyPQjvT4_S3DSpvVUGlxpAogUyXrHwpxZtl0wdP-hmerZsEY3um9IYwpxkMC8ABebMEbjnrJEN7ylOSA2aKqaQrVMxy_wbDECssk7hop2_OWwxkpOwqz6JsuxYyTUYfq4x93Hq2vM5jyTRri39mwLDvi3Iv7Am5seVwYDGRYTVztkv_FNgSz9J7VqlqUSFbxuk1YBexmrfydC2fI7AF2lyyAv1moqpJGgLVfagTGpfqGmpLahf20l8Of9g0ifTSJnRMEtNxtMlqAqalYtdMpVnQhvGZFT6QZ2O89ZBiH3Xm81zGppc5amckGruv_nAUI07fdp76lzAZEUbcRHL12IhUBYbwuAkl-Kfm2TWr9E-BIwwGkmS0s0qYpqF-d0PpAvruZo-iAa4xWCr2f_fCxQNIMIVALLMu09NRHmTMeiTjEOcX2cuK2rk87yhgFiPbsUR7x-xnDKUmLUjwgymreEpRbaoIbJEqAjjBv1Nrcq01e78-SfGAULWhj8BVP88v3WAexALS8iEG3gFOBBZ7NuAF8zULdMWl0mS8jdQoKIK4e3uI1NIqyL3fcGPSoXFCm960TJWQkE_VjgB3gnXnQNDBhkyXTFLxlj5gtV0nsa6JNPNki41TzeWOuB1iPFFbVjqMgm1h7ImswIrwG9gA5r2mqawmPmgsQxdernPcP1cbLjPVJJSZuLQgyTRN84CYpQYxgNgNekU81YXyh0RHnH0fwNV7qoB9eXz31pnNX2zt93PXNgAYBfufAUnlY5vcP4BRvnkUhgc-Rb5XqXyzxdOyIzQukobPi7N8ibd9pngxi_Ko_FqiP-WpthW4a0sn3E2E0J0np8k4JC4uTbuyqsLm4jhzEQ8GEOVhkrM2hc_I1OtMeMfddeYGnGFPc3aCCmYRv7iLnsPJtRqckRtOpg1x0d7UkTTKhctIQv5NeVryGdBGgK1Yi4nJnhCcdo4HzZ9L3K3rgl4N2yYSVHcAPFXX9FZpWrzoL2n4k6YT69pp68fZatv3b2kT6ElfMp_v57a_fWhc0_Z6JtC5KjorIK_ETBtodS63Gxsv1wFgYZKag-vew3q3WbF37sdp8HcF9celEIpq0n-ymXwXdwLsx9Pgc0HnBiyrKbFhzFmZCOY0EQw0qtweGw9EAtigAj_mZQqO7tfWBbieN8saYxoV9gl-Y_xhxLMhEWiIHYpR8tXAdomveF_uGzU5FrLyZoIMZ1JmGNMWchgYQ98nlGfyMFBlepLKzwFfZ6yI4B80MYydS6Sf0Gkrw3ZMbjdKp8UlFbqAIZomt6UBrX-EtnBwVKGwajkDn4DptfEgIaKq5w1-4kGzIP4swu-c2IpJQGFhShPwtXi1wj6jyOax4PXID66yfyfIs9LXd43_b9gLPWI3R-ainQ9Nzlwk6ARp0pQFXZE0jfke6745__D3uS88lp9pk4yAqA_2nLhr0KxjTLEWx-hO7Yu0Gn4uTkJZ-Dz1CZrjr6pxPG5iPrrBJTAztlOP5-gOTgaHkAAduYdc6qzugWsMP1P9L5opzhKPmUQVL6rZ6hR1Y15tpm2gQItLTW5E9sT2yZV72p481gHQIibPOZ-Jl5P4t6gXlUGndM8b5q5mEAF4M6D3wyo1RrK_nXZefTfxLtXPf-8KRQrStbajLEmARZF5T0mmpM6tmcLiBFPxM9HEKJN4V-ToGDhnIeCBKFSigbnXl1-bVr33JA1-GMdzC1A0Lpr9FFTPl7FEuYuDf6TsBQlH3zij2q7BC8DABpbxn0BawmGlQmQRbNsXNk2vottWA-Bo30R1oyAdN-CaYFx0M7iFUgiHQPkP86729Bb6OlKlQBU1rHHW_rMsBXP1qN0PKyjFF_IS2Ms7p6ciqrvwossAXA7Vf-GHqXLWbdremlQOq8Jh3QOWmzOt5t0xXkWMQ9&sai=AMfl-YQ0CZPOf8nA7TtEJN44MU9V6ZXHLM_Bfkp2FJvLfqf1g5jmH6snyT0SM8tSY4hky_AZ_u2BrycRm_ZEDEHl_Liuz8ayGF66ZdCotaz8r-Bb30DJY9xroKbail5WUUI6EgpOWxfBgUT0WRFyMGrJPvgosTVZ67WnN_vcRSlETHJgSmx84m-GKQ1nplQTXgDgKG1wwZgISCj9yFRXunzkFSRBlHKaPy0UPrwr-jcePUteHJ_xhZVMk-iBwpLwKuebxFDYgqPJtohI_hxC7ABGVYQlDntY8vFhRTFCykSS0qgooqL2qOt49XRYe5M-ZTU5rPvkcwN00NfOCVbpSCxthC4qBeCftXlJ0zp5nuvMYTxPU1_Ijn_273zhzQvh7TBBGxmDzVeeVle_0ITI1CU77EYHrPIy0z-d4NDQAVZ6QesCTnL5yiOY-bhnWdzWi7KsVK-ugC99cpQfc7-Dess_ZA-TgjGBnRJpr5B6mox1PDk7g_wwIJz6ZdTVpM1jCoQUyggn90J6LW8WxQVgUeGN23fWBXeTfx5Nx2k0LoQ7sfsih6I5rIbbeRz-0pstNhS9JMi4QMlPf-wNYUv2n3rTz7gNxTYJmUeeqzDuqYIR&sig=Cg0ArKJSzJ_DVLLnJ6hz&fbs_aeid=%5Bgw_fbsaeid%5D&crd=aHR0cHM6Ly9pdGNob3RlbHMuY29t&urlfix=1&adurl=https://www.itchotels.com/in/en/clubitc/membership-benefits/enrol%3Futm_source%3Dprogrammatic%26utm_medium%3Ddv360%26utm_content%3Ddisplay%26utm_campaign%3DPFX_Google-HQ_DTL-CHN-NA-QO-DisplayDV360-NA-Tactical-Membership-NA-NA-Feeder-C0%26utm_adgroup%3DDisplayDV360-NA-INT_Feeder-C0-CITCBranding_DisplayDV360-NA-INT_Feeder-0-Competitor_FeelRewarded%26dclid%3D%25edclid!%26gad_source%3D7
+              - img "Advertisement" [ref=f4e5]
+            - generic [ref=f4e6]:
+              - generic:
+                - img [ref=f4e10] [cursor=pointer]
+                - button [ref=f4e12] [cursor=pointer]:
+                  - img [ref=f4e13]
+        - iframe [ref=e195]:
+          - generic [ref=f5e7] [cursor=pointer]:
+            - link [ref=f5e8]:
+              - /url: https://clck.mgid.com/ghits/25224875/i/58092113/0/pp/1/6?h=YenOgV-1RI9P46hkpM-AUDcHvwz7qxF1j9pd8zLti3xTx4QxC2bvHkBgyx0b5qCNLre59wELMae-_uJXKVURnlauIqe7tdHzi2DN_yguBrfxb9Oz4AFcH42UGyDuGPBD&rid=214f576f-bb04-11f0-b718-c4cbe1e8d8dc&ts=demoqa.com&tt=Referral&att=4&abd=1&iv=17&ct=6&gdprApplies=0&st=330&mp4=1&h2=zroMWqCURXSV1AnGYt5U4eTex4TWpUMk7MqIIYrmgpcCxQVIyhFlf97PBeF6OmlMV-QTi6nfGgDjfZy3Lgn5gw**
+            - generic [ref=f5e9]:
+              - link [ref=f5e11]:
+                - /url: https://clck.mgid.com/ghits/25224875/i/58092113/0/pp/1/6?h=YenOgV-1RI9P46hkpM-AUDcHvwz7qxF1j9pd8zLti3xTx4QxC2bvHkBgyx0b5qCNLre59wELMae-_uJXKVURnlauIqe7tdHzi2DN_yguBrfxb9Oz4AFcH42UGyDuGPBD&rid=214f576f-bb04-11f0-b718-c4cbe1e8d8dc&ts=demoqa.com&tt=Referral&att=4&abd=1&iv=17&ct=6&gdprApplies=0&st=330&mp4=1&h2=zroMWqCURXSV1AnGYt5U4eTex4TWpUMk7MqIIYrmgpcCxQVIyhFlf97PBeF6OmlMV-QTi6nfGgDjfZy3Lgn5gw**
+              - generic [ref=f5e14]:
+                - link "Dot & Key Lip Polish Choco Mint Exfoliating Sugar Scrub" [ref=f5e16]:
+                  - /url: https://clck.mgid.com/ghits/25224875/i/58092113/0/pp/1/6?h=YenOgV-1RI9P46hkpM-AUDcHvwz7qxF1j9pd8zLti3xTx4QxC2bvHkBgyx0b5qCNLre59wELMae-_uJXKVURnlauIqe7tdHzi2DN_yguBrfxb9Oz4AFcH42UGyDuGPBD&rid=214f576f-bb04-11f0-b718-c4cbe1e8d8dc&ts=demoqa.com&tt=Referral&att=4&abd=1&iv=17&ct=6&gdprApplies=0&st=330&mp4=1&h2=zroMWqCURXSV1AnGYt5U4eTex4TWpUMk7MqIIYrmgpcCxQVIyhFlf97PBeF6OmlMV-QTi6nfGgDjfZy3Lgn5gw**
+                - link "Amazon" [ref=f5e18]:
+                  - /url: https://clck.mgid.com/ghits/25224875/i/58092113/0/pp/1/6?h=YenOgV-1RI9P46hkpM-AUDcHvwz7qxF1j9pd8zLti3xTx4QxC2bvHkBgyx0b5qCNLre59wELMae-_uJXKVURnlauIqe7tdHzi2DN_yguBrfxb9Oz4AFcH42UGyDuGPBD&rid=214f576f-bb04-11f0-b718-c4cbe1e8d8dc&ts=demoqa.com&tt=Referral&att=4&abd=1&iv=17&ct=6&gdprApplies=0&st=330&mp4=1&h2=zroMWqCURXSV1AnGYt5U4eTex4TWpUMk7MqIIYrmgpcCxQVIyhFlf97PBeF6OmlMV-QTi6nfGgDjfZy3Lgn5gw**
+                - link [ref=f5e19]:
+                  - /url: https://clck.mgid.com/ghits/25224875/i/58092113/0/pp/1/6?h=YenOgV-1RI9P46hkpM-AUDcHvwz7qxF1j9pd8zLti3xTx4QxC2bvHkBgyx0b5qCNLre59wELMae-_uJXKVURnlauIqe7tdHzi2DN_yguBrfxb9Oz4AFcH42UGyDuGPBD&rid=214f576f-bb04-11f0-b718-c4cbe1e8d8dc&ts=demoqa.com&tt=Referral&att=4&abd=1&iv=17&ct=6&gdprApplies=0&st=330&mp4=1&h2=zroMWqCURXSV1AnGYt5U4eTex4TWpUMk7MqIIYrmgpcCxQVIyhFlf97PBeF6OmlMV-QTi6nfGgDjfZy3Lgn5gw**
+                  - img [ref=f5e20]
+    - contentinfo [ref=e196]:
+      - generic [ref=e197]: © 2013-2020 TOOLSQA.COM | ALL RIGHTS RESERVED.
+```
