@@ -13,7 +13,7 @@ test.describe('Alerts Tests', () => {
     await alertsPage.navigate();
 
     logStep('Setting up alert handler');
-    await alertsPage.handleAlert(); // Uses page.once internally
+    await alertsPage.handleAlert(); 
 
     logStep('Clicking simple alert button');
     await alertsPage.clickAlertButton();

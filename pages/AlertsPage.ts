@@ -51,5 +51,6 @@ async handlePrompt(text: string) {
 async getPromptResultText() {
   return await getText(this.page, '#promptResult');
 }
+
 }
 

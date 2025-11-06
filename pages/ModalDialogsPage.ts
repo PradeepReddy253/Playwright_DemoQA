@@ -26,5 +26,6 @@ export class ModalDialogsPage {
   } else {
     await clickElement(this.page, '#closeLargeModal');
   }
+  
 }
 }
