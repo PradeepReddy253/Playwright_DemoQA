@@ -1,0 +1,19 @@
+
+# Node modules
+node_modules/
+
+# Playwright reports and test artifacts
+playwright-report/
+test-results/
+screenshots/
+
+# Logs and temporary files
+action-log.txt
+error-log.txt
+
+# Package lock file (optional)
+package-lock.json
+
+# OS-specific files
+.DS_Store
+Thumbs.db
