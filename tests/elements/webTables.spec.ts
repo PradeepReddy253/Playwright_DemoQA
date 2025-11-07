@@ -58,4 +58,30 @@ test.describe('Web Tables Tests', () => {
       await handleError('Radio Button Test', err,page);
     }
   });
+
+  test('Should not allow adding a record with missing required fields', async ({ page }) => {
+  try {
+    const webTablesPage = new WebTablesPage(page);
+
+    logStep('Navigating to Web Tables page');
+    await webTablesPage.navigate();
+
+    logStep('Attempting to add a record with missing email');
+    await webTablesPage.addRecord(
+      webTablesData.firstName,
+      webTablesData.lastName,
+      '', // Missing email
+      webTablesData.age,
+      webTablesData.salary,
+      webTablesData.department
+    );
+
+    logStep('Verifying that record was not added');
+    const rowIndex = await webTablesPage.findRowIndexByName(webTablesData.firstName);
+    expect(rowIndex).toBeNull(); // Expect the record to not be added
+
+  } catch (err) {
+    await handleError('Negative Test - Missing Email', err, page);
+  }
+});
 });
