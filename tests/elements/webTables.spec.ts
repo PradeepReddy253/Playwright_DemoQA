@@ -2,8 +2,7 @@ import { test, expect } from '@playwright/test';
 import { WebTablesPage } from '../../pages/WebTablesPage';
 import { logStep } from '../../utils/logger';
 import { webTablesData } from '../../utils/testData';
-import fs from 'fs';
-import path from 'path';
+
 import { handleError } from '../../utils/errorHandler';
 
 test.describe('Web Tables Tests', () => {
