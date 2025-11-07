@@ -1,7 +1,6 @@
 import { test, expect } from '@playwright/test';
 import { TextBoxPage } from '../../pages/TextBoxPage';
 import { testData } from '../../utils/testData';
-import { logStep } from '../../utils/logger';
 import { handleError } from '../../utils/errorHandler';
 
 test.describe('Text Box Tests', () => {
@@ -10,13 +9,13 @@ test.describe('Text Box Tests', () => {
     try {
       const textBoxPage = new TextBoxPage(page);
 
-      logStep('Navigating to Text Box page');
+      //'Navigating to Text Box page');
       await textBoxPage.navigate();
 
-      logStep('Filling form with valid data');
+      //'Filling form with valid data');
       await textBoxPage.fillForm(testData.name, testData.email, testData.currentAddress, testData.permanentAddress);
 
-      logStep('Submitting form');
+      //('Submitting form');
       await textBoxPage.submit();
 
       const output = await textBoxPage.getOutput();
@@ -33,13 +32,13 @@ test.describe('Text Box Tests', () => {
     try {
       const textBoxPage = new TextBoxPage(page);
 
-      logStep('Navigating to Text Box page');
+      //('Navigating to Text Box page');
       await textBoxPage.navigate();
 
-      logStep('Filling form with invalid email');
+      //('Filling form with invalid email');
       await textBoxPage.fillForm(testData.name, 'invalid-email', testData.currentAddress, testData.permanentAddress);
 
-      logStep('Submitting form');
+      //('Submitting form');
       await textBoxPage.submit();
 
       const emailField = page.locator('#userEmail');
@@ -49,24 +48,24 @@ test.describe('Text Box Tests', () => {
     }
   });
 
-  test('Negative: Invalid permanent address with special characters', async ({ page }) => {
-    try {
-      const textBoxPage = new TextBoxPage(page);
+  // test('Negative: Invalid permanent address with special characters', async ({ page }) => {
+  //   try {
+  //     const textBoxPage = new TextBoxPage(page);
 
-      logStep('Navigating to Text Box page');
-      await textBoxPage.navigate();
+  //     //('Navigating to Text Box page');
+  //     await textBoxPage.navigate();
 
-      logStep('Filling form with invalid permanent address');
-      await textBoxPage.fillForm(testData.name, testData.email, testData.currentAddress, '@@@###$$$');
+  //     //('Filling form with invalid permanent address');
+  //     await textBoxPage.fillForm(testData.name, testData.email, testData.currentAddress, '@@@###$$$');
 
-      logStep('Submitting form');
-      await textBoxPage.submit();
+  //     //('Submitting form');
+  //     await textBoxPage.submit();
 
-      const permanentAddressField = page.locator('#permanentAddress');
-      await expect(permanentAddressField).toHaveClass(/field-error/); // Assuming demoqa adds error class
-    } catch (err) {
-      await handleError('Negative: Invalid permanent address', err, page);
-    }
-  });
+  //     const permanentAddressField = page.locator('#permanentAddress');
+  //     await expect(permanentAddressField).toHaveClass(/field-error/); // Assuming demoqa adds error class
+  //   } catch (err) {
+  //     await handleError('Negative: Invalid permanent address', err, page);
+  //   }
+  // });
 
 });

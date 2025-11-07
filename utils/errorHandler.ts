@@ -1,35 +1,32 @@
 // utils/errorHandler.ts
-import fs from 'fs';
 import path from 'path';
 import { Page } from '@playwright/test';
+import fs from 'fs';
+import logger from './logger';
 
 export async function handleError(testName: string, err: unknown, page?: Page) {
   try {
-    // Ensure screenshots folder exists
-    if (!fs.existsSync('screenshots')) {
-      fs.mkdirSync('screenshots');
+    const safeTitle = testName.replace(/[^a-zA-Z0-9-_]/g, '_');
+    const screenshotDir = 'screenshots';
+    const screenshotPath = path.join(screenshotDir, `${safeTitle}.png`);
+
+    if (!fs.existsSync(screenshotDir)) {
+      fs.mkdirSync(screenshotDir, { recursive: true });
     }
 
-    // Safe file name for screenshot
-    const safeTitle = testName.replace(/[^a-zA-Z0-9-_]/g, '_');
-    const screenshotPath = path.join('screenshots', `${safeTitle}.png`);
-
-    // Capture screenshot if page is provided
     if (page) {
       await page.screenshot({ path: screenshotPath, fullPage: true });
-      console.log(`📸 Screenshot saved at: ${screenshotPath}`);
+      logger.error(`Screenshot saved at: ${screenshotPath}`);
     }
 
-    // Log error details
-    if (err instanceof Error) {
-      console.error(` Error in ${testName}: ${err.message}`);
-    } else {
-      console.error(` Unknown error in ${testName}: ${String(err)}`);
-    }
+    const errorMessage = err instanceof Error ? err.message : String(err);
+    const errorStack = err instanceof Error && err.stack ? err.stack : 'No stack trace';
+
+    logger.error(`ERROR in ${testName}: ${errorMessage}\n${errorStack}`);
+
   } catch (screenshotErr) {
-    console.error(`Failed to capture screenshot: ${String(screenshotErr)}`);
+    logger.error(`Failed to capture screenshot: ${String(screenshotErr)}`);
   }
 
-  // Rethrow so Playwright marks test as failed
   throw err;
 }
