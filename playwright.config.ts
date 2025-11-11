@@ -8,13 +8,13 @@ export default defineConfig({
   workers: 1,
   use: {
     headless: true,
-    baseURL: 'https://demoqa.com', // ✅ Add this
+    baseURL: 'https://demoqa.com', // Add this
     screenshot: 'only-on-failure',
     video: 'retain-on-failure',
     trace: 'on-first-retry',
   },
  reporter: [
     ['list'], // shows results in terminal
-    ['html', { outputFolder: 'playwright-report', open: 'never' }] // ✅ HTML report
+    ['html', { outputFolder: 'playwright-report', open: 'never' }] // HTML report
   ]
 });

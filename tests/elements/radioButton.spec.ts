@@ -24,7 +24,21 @@ test.describe('Radio Button Tests', () => {
       //('Checking if No option is disabled');
       expect(await radioButtonPage.isNoDisabled()).toBeTruthy();
     } catch (err) {
-          await handleError('Radio Button Test', err,page);
-        }
+      await handleError('Radio Button Test', err, page);
+    }
   });
+  test('Negative: Attempt to select disabled No option', async ({ page }) => {
+    try {
+      const radioButtonPage = new RadioButtonPage(page);
+
+      await radioButtonPage.navigate();
+      await page.waitForTimeout(1000);
+
+      const isDisabled = await radioButtonPage.isNoDisabled();
+      expect(isDisabled).toBeTruthy(); // No option should be disabled
+    } catch (err) {
+      await handleError('Negative: Disabled No option', err, page);
+    }
+  });
+
 });

@@ -1,5 +1,5 @@
 // utils/actions.ts
-import test, { Page, FrameLocator } from '@playwright/test';
+import { Page, FrameLocator } from '@playwright/test';
 import logger from './logger';
 
 

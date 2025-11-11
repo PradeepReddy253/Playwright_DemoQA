@@ -2,7 +2,7 @@ import { Page } from '@playwright/test';
 import { navigateTo, clickElement, getText, waitForVisible } from '../utils/actions';
 
 export class BrowserWindowsPage {
-  constructor(private page: Page) {}
+  constructor(private page: Page) { }
 
   async navigate() {
     await navigateTo(this.page, 'https://demoqa.com/browser-windows');

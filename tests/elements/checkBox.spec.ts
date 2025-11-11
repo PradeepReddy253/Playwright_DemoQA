@@ -11,7 +11,7 @@ test.describe('Check Box Tests', () => {
       //('Navigating to Check Box page');
       await checkBoxPage.navigate();
 
-     //'Expanding all checkboxes');
+      //'Expanding all checkboxes');
       await checkBoxPage.expandAll();
       await page.waitForTimeout(1000); // Pause for demo clarity
 
@@ -23,8 +23,24 @@ test.describe('Check Box Tests', () => {
       //'Verifying selected items');
       const result = await checkBoxPage.getSelectedItems();
       expect(result).toContain('commands');
-    }catch (err) {
-  await handleError('Check Box Test', err, page);
-}
+    } catch (err) {
+      await handleError('Check Box Test', err, page);
+    }
+  });
+
+  test('Negative: No checkbox selected', async ({ page }) => {
+    try {
+      const checkBoxPage = new CheckBoxPage(page);
+
+      await checkBoxPage.navigate();
+      await checkBoxPage.expandAll();
+      await page.waitForTimeout(1000);
+
+      // Verify that result area does NOT exist
+      const resultLocator = page.locator('.display-result');
+      expect(await resultLocator.count()).toBe(0); // Element should not exist
+    } catch (err) {
+      await handleError('Negative: No checkbox selected', err, page);
+    }
   });
 });
